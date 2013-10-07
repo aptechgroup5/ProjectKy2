@@ -13,5 +13,10 @@
     </head>
     <body>
         <h1>Hello World!</h1>
+        <form action="UserBackendAction" method="POST">
+            <input type="text" name="Username" value="" />
+            <input type="password" name="Password" value="" />
+            <input type="submit" value="Login" />
+        </form>
     </body>
 </html>

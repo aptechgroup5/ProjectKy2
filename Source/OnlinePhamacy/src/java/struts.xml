@@ -5,6 +5,10 @@
 <struts>
     <!-- Configuration for the default package. -->
     <package name="default" extends="struts-default">
-        
+        <action name="UserBackendAction" class="com.group5.onlinephamacy.Action.Backend.User.UserBackendAction" method="vnk_UserBackend_Login">
+            <result name="success">/vnkAdmin/index.jsp</result>
+            <result name="error">/error.jsp</result>
+            <result name="input">/login.jsp</result>
+        </action>
     </package>
 </struts>
